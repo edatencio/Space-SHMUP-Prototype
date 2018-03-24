@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -363,12 +363,72 @@ Prefab:
 
         Prototype'
       objectReference: {fileID: 0}
+    - target: {fileID: 224948747435689278, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224948747435689278, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224424504100346666, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -111
+      objectReference: {fileID: 0}
+    - target: {fileID: 224524102194953176, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -111
+      objectReference: {fileID: 0}
+    - target: {fileID: 224127249909484630, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 224293312726957988, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114678241012326346, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: aboutPanel
+      value: 
+      objectReference: {fileID: 581988514}
+    - target: {fileID: 114678241012326346, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: exitButtonDisabled
+      value: 
+      objectReference: {fileID: 581988512}
+    - target: {fileID: 114678241012326346, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+        type: 2}
+      propertyPath: exitButtonEnabled
+      value: 
+      objectReference: {fileID: 581988513}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &581988511 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224710612520484388, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+    type: 2}
+  m_PrefabInternal: {fileID: 581988510}
+--- !u!1 &581988512 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1355200925140736, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+    type: 2}
+  m_PrefabInternal: {fileID: 581988510}
+--- !u!1 &581988513 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1871095055800512, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
+    type: 2}
+  m_PrefabInternal: {fileID: 581988510}
+--- !u!1 &581988514 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1088277408136102, guid: 940d1f70ceb7c4a4dabc15c2f82fbd0c,
     type: 2}
   m_PrefabInternal: {fileID: 581988510}
 --- !u!1 &737133464
